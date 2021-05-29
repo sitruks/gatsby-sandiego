@@ -2,13 +2,15 @@
   <a href="https://www.gatsbyjs.com/docs/quick-start/">
     <img alt="github source for soft fork of project" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
-  <a>
-    <img alt="carmen sandiego logo" src="./images/carmenSandiegoLogo.png" width="60" />
+  <a href="https://fycarmensandiego.tumblr.com/downloads">
+    <img alt="carmen sandiego logo" src="./src/images/carmenSandiegoLogo.png" width="64"/>
   </a>
 </p>
 
 <h2 align="center">
-  Carmen Sandiego project scaffolded onto the Gatsby minimal starter. Think of it as a light fork.
+Carmen Sandiego project scaffolded onto the Gatsby minimal starter.  
+
+Think of it as a light fork.
 </h2>
 
 #####  Credit to [JulienVerkest](https://github.com/JulienVerkest/carmen-sandiego) for the MVP to start from :)
