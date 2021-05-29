@@ -1,6 +1,9 @@
 <p align="center">
-  <a href="https://github.com/JulienVerkest/carmen-sandiego">
+  <a href="https://www.gatsbyjs.com/docs/quick-start/">
     <img alt="github source for soft fork of project" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+  <a>
+    <img alt="carmen sandiego logo" src="./images/carmenSandiegoLogo.png" width="60" />
   </a>
 </p>
 
