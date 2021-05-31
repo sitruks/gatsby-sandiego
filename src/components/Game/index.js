@@ -5,7 +5,6 @@ import Instructions from './Instructions'
 import PlaceAndDate from './PlaceAndDate'
 import Buttons from './Buttons'
 import Debug from '../Debug'
-// import moment from 'moment';
 import Cases from '../GameData/Data/Cases'
 import Config from '../GameData/Data/Config'
 import Dossiers from '../GameData/Data/Dossiers'
@@ -15,20 +14,6 @@ import WrongDestination from './WrongDestination'
 import Arrest from './Arrest'
 import soundClock from './PlaceAndDate/clock-2.mp3'
 import './index.css'
-
-/* with moment 
-const startDate = moment('2019-03-25 09');
-const endDate = moment('2019-03-31 17');
-*/
-
-/* without momentJS
-let startDate = new Date('March 25, 2019 09:00:00')
-startDate.setHours(startDate2.getHours() + 2)
-startDate.toLocaleDateString('en-US', { weekday: 'long', hour: 'numeric' });
-
-let endDate = new Date('March 31, 2019 17:00:00')
-
-*/
 
 const startDate = new Date('March 25, 2019 09:00:00')
 const nextDate = new Date('March 25, 2019 09:00:00')
@@ -59,7 +44,7 @@ const initialState = {
   hair: '',
   feature: '',
   vehicule: '',
-  HISTORY: [],
+  HISTORY: []
 }
 
 class Interface extends Component {
@@ -212,7 +197,7 @@ class Interface extends Component {
       await this.setState({
         mydate: new Date(
           this.state.mydate.setHours(this.state.mydate.getHours() + 1)
-        ),
+        )
       })
       this.checkExpirationDate()
       this.pauseSoundClock()
@@ -302,7 +287,7 @@ class Interface extends Component {
       feature,
       hobby,
       warrant,
-      HISTORY,
+      HISTORY
     } = this.state
     return (
       <div>
@@ -391,7 +376,7 @@ class Interface extends Component {
                     <WrongDestination
                       clue={{
                         Guy: { key: 'curator' },
-                        Clue: "Whoops! 404 not found error. I think you're are lost.",
+                        Clue: "Whoops! 404 not found error. I think you're are lost."
                       }}
                     ></WrongDestination>
                   ) : (

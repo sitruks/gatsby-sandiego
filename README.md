@@ -17,7 +17,7 @@ Think of it as a light fork.
 ---
 
 <h2 align="center">
-  🚀🚀🚀 Quick start 🚀🚀🚀
+  🚀🚀🚀 Quick Start 🚀🚀🚀
 </h2>
 
 1.  **Create a Gatsby site.**
@@ -47,13 +47,15 @@ Think of it as a light fork.
 ---
 
 ## To Do:
-- [ ]  Migrate Class Components to Functional Components
-- [ ]  Audit the current UI
+- [ ]  Migrate the CSS to an alternative solution like SASS or CSS-in-JS
+- [ ]  Change the current animation links to random giphy animation calls
+- [ ]  Audit the current UI with new CSS system in place
 - [ ]  Update the current UI based on audit findings
 - [ ]  Save and Restore the state of the game in localStorage with possibily to rename each save
 - [ ]  Add animation when expiration time i.e. the date is superior at Sunday, 5pm. 
 - [ ]  Compress and optimize mp4 animations, mp3 sounds and jpg pictures and store them to cdn
 - [ ]  Fix french i18n translations : place, date, end messages, dossiers, typemachine, etc.
+- [ ]  Add Japanese i18n translations
 - [ ]  Add shortcuts keyboard 
 - [ ]  Improve close button design
 - [ ]  Fix `eval()` on crime options
