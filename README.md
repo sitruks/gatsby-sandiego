@@ -52,6 +52,7 @@ Think of it as a light fork.
 - [ ]  Audit the current UI with new CSS system in place
 - [ ]  Update the current UI based on audit findings
 - [ ]  Save and Restore the state of the game in localStorage with possibily to rename each save
+- [ ]  Consider refactoring class components to functional components for easier state management
 - [ ]  Add animation when expiration time i.e. the date is superior at Sunday, 5pm. 
 - [ ]  Compress and optimize mp4 animations, mp3 sounds and jpg pictures and store them to cdn
 - [ ]  Fix french i18n translations : place, date, end messages, dossiers, typemachine, etc.
